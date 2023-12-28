@@ -32,7 +32,7 @@ class MainActivity2 : AppCompatActivity() {
 
     }
     private fun fetchData() {
-        val url = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=100370380d61481baec48a74a0260ad3"
+        val url = "https://dev.channelier.com/api/public/callBack"
         val jsonObjectRequest = JsonObjectRequest(
             Request.Method.GET, url, null,
 
